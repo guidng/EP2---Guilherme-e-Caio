@@ -1,3 +1,4 @@
+#EX1
 def define_posicoes(linha,coluna,orientacao,tamanho):
     lista_posicoes=[]
     for i in range(tamanho):
@@ -8,6 +9,7 @@ def define_posicoes(linha,coluna,orientacao,tamanho):
             coluna+=1
     return lista_posicoes
 
+#EX2
 def preenche_frota(frota, nome_navio, linha, coluna, orientacao, tamanho):
     if nome_navio not in frota.keys():
         frota[nome_navio] =  [define_posicoes(linha,coluna,orientacao,tamanho)]

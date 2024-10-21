@@ -1,7 +1,7 @@
 def define_posicoes(linha,coluna,orientacao,tamanho):
     lista_posicoes=[]
     for i in range(tamanho):
-        lista_posicoes.append(f'{linha},{coluna}')
+        lista_posicoes.append([linha,coluna])
         if orientacao=='vertical':
             linha+=1
         else:
